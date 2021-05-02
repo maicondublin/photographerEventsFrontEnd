@@ -10,7 +10,7 @@
                 height="400px"
                 :src="header"
             >
-                <v-card-title>Bem Vindo!</v-card-title>
+                <v-card-title>Photographer Events, Welcome!</v-card-title>
             </v-img>
 
             <v-card-text class="text--primary">
@@ -48,7 +48,7 @@ export default {
   name: 'login',
   data() {
         return {
-            header: require('../src/assets/card_header.jpg'),
+            header: require('../src/assets/card_header.jpeg'),
             name: null,
             password: null
         }
